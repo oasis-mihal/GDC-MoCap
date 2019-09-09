@@ -1,7 +1,7 @@
 # GDC-MoCap
 Optical MoCap system built using OpenCV for Game Design Carleton
 
-#Setup
+# Setup
 Download the OpenCV 4.10 installer and run it
 
 Go into your system path (Windows Key > type "path" and click Edit the system environment variables)
@@ -12,7 +12,7 @@ Set variable name to OPENCV_DIR
 Set variable value to C:\Program Files\opencv\build\x64\vc15 or wherever else you installed OpenCV
 Save your variables
 
-#Linking to Visual Studio
+# Linking to Visual Studio
 Copy opencv_world410.dll from C:\Program Files\opencv\build\x64\vc15 or wherever else you installed OpenCV to GDC-MoCap\x64\Release 
 Copy opencv_world410d.dll from C:\Program Files\opencv\build\x64\vc15 or wherever else you installed OpenCV to GDC-MoCap\x64\Debug 
 The property pages should already be set up correctly
