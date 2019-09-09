@@ -7,9 +7,13 @@ Download the OpenCV 4.10 installer and run it
 Go into your system path (Windows Key > type "path" and click Edit the system environment variables)
 
 Click environment variables.
+
 Under the **system** variables click Add...
+
 Set variable name to OPENCV_DIR
+
 Set variable value to C:\Program Files\opencv\build\x64\vc15 or wherever else you installed OpenCV
+
 Save your variables
 
 # Linking to Visual Studio
