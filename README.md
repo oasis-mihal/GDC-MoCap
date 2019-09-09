@@ -14,8 +14,12 @@ Save your variables
 
 # Linking to Visual Studio
 Copy opencv_world410.dll from C:\Program Files\opencv\build\x64\vc15 or wherever else you installed OpenCV to GDC-MoCap\x64\Release 
+
 Copy opencv_world410d.dll from C:\Program Files\opencv\build\x64\vc15 or wherever else you installed OpenCV to GDC-MoCap\x64\Debug 
+
 The property pages should already be set up correctly
+
 Set the project to **Release** mode from Debug and set x86 to **x64** if applicable.
+
 Hit Local Windows Debugger to confirm the program builds and runs
 
